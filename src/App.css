@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+/*header style*/
+.header{
+  background-color: orange;
+  height: 100px;
+}
+.cart{
+  float: right;
+  margin:25px;
+  position: relative;
+}
+.cart img{
+  width: 30px;
+}
+.cart span{
+  position: absolute;
+  background-color: green;
+  z-index: 5;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  color:#fff;
+  top:-10px;
+  right:0
+}
+
